@@ -19,7 +19,7 @@ contract Trico{
 
     // public variables here
     string public tokenname = "TRICO"; 
-    string public tokenAbbrv = "TRC"; 
+    string public tokenAbbrv = "FF"; 
     uint public totalSupply = 0;
 
     // mapping variable here
