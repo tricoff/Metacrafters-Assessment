@@ -7,9 +7,9 @@ This Solidity program is a simple program about creating a ERC20 token and deplo
 
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has mainly 2 function:-
 
--> Mint Function (To mint tokens)
+--> To mint tokens
 
--> Burn Function  (To burn tokens)
+--> To burn tokens
 
 
 
@@ -25,8 +25,8 @@ pragma solidity ^0.8.4;
 contract MyToken {
 
     // public variables here
-    string public tokenname = "VAIBHAV"; 
-    string public tokenAbbrv = "VIV"; 
+    string public tokenname = "TRICO"; 
+    string public tokenAbbrv = "FF"; 
     uint public totalSupply = 0;
 
     // mapping variable here
@@ -47,18 +47,3 @@ contract MyToken {
 }
 
 
-
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4 or above" (or another compatible version), and then click on the "Compile Token.sol" button.
-
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "Token" contract from the dropdown menu, and then click on the "Deploy" button.
-
-Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "Token" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and interact with the blue and red buttons. You can read and write from the contract also. 
-
-## Authors
-
-Vaibhav Tripathi
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
